@@ -1,1 +1,1 @@
-# chrome-custom-startup-page
+# Customize Chrome Startup Page
