@@ -15,25 +15,25 @@
 
 // data for quickLinks
 const quickLinks = [
-    { name: 'instagram', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'facebook', link: 'www.facebook.com', iconClassName: 'fa-facebook' },
-    { name: 'linkedin', link: 'www.linkedin.com', iconClassName: 'fa-linkedin' },
-    { name: 'github', link: 'www.github.com', iconClassName: 'fa-github' },
-    { name: 'youtube', link: 'www.youtube.com', iconClassName: 'fa-youtube' },
-    { name: 'twitter', link: 'www.twitter.com', iconClassName: 'fa-twitter' },
+    { name: 'instagram', link: 'https://instagram.com', iconClassName: 'fa-instagram' },
+    { name: 'facebook', link: 'https://facebook.com', iconClassName: 'fa-facebook' },
+    { name: 'linkedin', link: 'https://linkedin.com', iconClassName: 'fa-linkedin' },
+    { name: 'github', link: 'https://github.com', iconClassName: 'fa-github' },
+    { name: 'youtube', link: 'https://youtube.com', iconClassName: 'fa-youtube' },
+    { name: 'twitter', link: 'https://twitter.com', iconClassName: 'fa-twitter' },
 ];
 
 // data for bookmark
 const bookmarkData = [
-    { name: 'instagram', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'facebook', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'github', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'chat gpt', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'linkedin', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'youtube', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'notion', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'figma', link: 'www.instagram.com', iconClassName: 'fa-instagram' },
-    { name: 'apple', link: 'www.apple.com', iconClassName: 'fa-apple' }
+    { name: 'instagram', link: 'https://instagram.com', iconClassName: 'fa-instagram' },
+    { name: 'facebook', link: 'https://facebook.com', iconClassName: 'fa-facebook' },
+    { name: 'github', link: 'https://github/kush992.com', iconClassName: 'fa-github' },
+    { name: 'chat gpt', link: 'https://openai.chatgpt.com', iconClassName: 'fa-chatgtp' },
+    { name: 'linkedin', link: 'https://linkedin.com', iconClassName: 'fa-linkedin' },
+    { name: 'youtube', link: 'https://youtube.com', iconClassName: 'fa-youtube' },
+    { name: 'notion', link: 'https://notion.com', iconClassName: 'fa-notion' },
+    { name: 'figma', link: 'https://figma.com', iconClassName: 'fa-figma' },
+    { name: 'apple', link: 'https://apple.com', iconClassName: 'fa-apple' }
 ];
 
 // getting target elements
