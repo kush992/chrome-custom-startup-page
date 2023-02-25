@@ -1,0 +1,132 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: white;
+    background-color: #101c27;
+    margin: 0;
+    transition: all 1s ease;
+    /* background: linear-gradient(300deg, #2a2d2c, #25320a, #690427, #490085, #2e353a, #1a2f3e);
+    background-size: 360% 360%;
+    animation: gradient-animation 36s ease infinite; */
+}
+
+/* @keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in;
+}
+
+.info-container {
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+    background-color: #1d3347;
+    border-radius: 10px;
+    animation: borderAnimation 4s ease infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border: none;
+    }
+    100% {
+        outline: 2px solid #aaf0d1;
+    }
+}
+
+.info-date {
+    margin: 10px;
+    color: white;
+}
+
+.time {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.date {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.info-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-content i {
+    padding: 5px;
+    color: white;
+}
+
+.info-content i:hover {
+    color: wheat;
+    transition: all 0.4s ease-in;
+}
+
+.bookmark-container {
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bookmarks {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 3px;
+    background-color: #1d3347;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 1s ease-in;
+}
+
+.bookmarks i {
+    font-size: 24px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.link {
+    font-size: 10px;
+    font-style: italic;
+    color: #b4b4b4;
+}
