@@ -1,17 +1,21 @@
 // to get the current time & date
 // TODO: optimise the time & date func
-// const interval = setInterval(() => {
+const printTime = document.getElementById('time');
+const printDate = document.getElementById('date');
+
+function currentTime() {
     const currentDateAndTime = new Date;
-    const currentTime = `${currentDateAndTime.getHours()}:${currentDateAndTime.getMinutes()}`;
+
+    const currentTime = currentDateAndTime.toLocaleString('default', { timeStyle: 'short', hour12: false });
     const currentMonth = currentDateAndTime.toLocaleString('default', { month: 'long' });
     const currentDate = `${currentDateAndTime.getDate()}, ${currentDateAndTime.getFullYear()}`;
 
-    const printTime = document.getElementById('time');
-    const printDate = document.getElementById('date');
-
     printTime.innerHTML = currentTime;
     printDate.innerHTML = `${currentMonth} ${currentDate}`;
-// }, 1000);
+}
+
+currentTime();
+const interval = setInterval(() => currentTime(), 1000);
 
 // data for quickLinks
 const quickLinks = [
